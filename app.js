@@ -4,7 +4,7 @@
 //let paragrafo = document.querySelector('p');
 //paragrafo.innerHTML = 'Escolha o número entre 1 e 10';
 let listaDeNumerosSorteados= [];
-let numeroLimite= 200;
+let numeroLimite= 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -16,7 +16,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1','Jogo do número Secreto');
-    exibirTextoNaTela('p', 'Escolha o número entre 1 e 200');
+    exibirTextoNaTela('p', 'Escolha o número entre 1 e 100');
 }
 exibirMensagemInicial();
 // função e responsavel por gerenciar alguma ação no código.
